@@ -1,29 +1,72 @@
-# todolist
+# 📝 ToDo List App
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple, clean, and user-friendly ToDo List web application designed to help users manage daily tasks efficiently.
 
-## Recommended IDE Setup
+🔗 **Live Demo:** https://to-do-list-ruddy-xi-16.vercel.app/
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Customize configuration
+## 🚀 Overview
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+This project is a lightweight task management application focused on **simplicity, usability, and performance**.
 
-## Project Setup
+Users can easily add, track, and complete daily tasks without unnecessary complexity.  
+The application runs entirely on the frontend and stores data locally, so no backend or authentication is required.
 
-```sh
+---
+
+## ✨ Features
+
+- ✅ Add new tasks with title and optional notes  
+- 🗂 Manage daily task list  
+- ✔️ Mark tasks as completed  
+- 📝 Edit and delete tasks  
+- ⏰ Set due date and time  
+- 🔴 Highlight overdue tasks automatically  
+- 🔍 Filter tasks:
+  - All
+  - Active
+  - Completed  
+
+---
+
+## 🎯 Problem Solved
+
+Many users struggle to:
+- Keep track of daily tasks
+- Stay organized without complex tools
+- Maintain productivity
+
+👉 This app provides:
+- A **simple and intuitive interface**
+- Fast task creation and completion
+- Clear visual feedback for task status
+
+---
+
+## 🧠 Tech Stack
+
+- **Frontend:** Vue.js + Vite  
+- **Storage:** localStorage  
+- **Styling:** CSS / Tailwind  
+
+---
+
+## 🖥️ UI/UX Principles
+
+- Minimal and clean design  
+- Easy to use for all users  
+- Low interaction cost (few clicks)  
+- Clear task states:
+  - Completed → strikethrough & faded  
+  - Overdue → highlighted in red  
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/your-username/todolist.git
+cd todolist
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
