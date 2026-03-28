@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # Hệ sinh thái bạn đang dùng (Node.js)
+    directory: "/" # Nơi chứa file package.json
+    schedule:
+      interval: "daily" # Check cập nhật hàng tuần (hoặc "daily" nếu muốn hàng ngày)
